@@ -42,7 +42,7 @@ const fetchExperiences = async (query) => {
       return data
 
     } else {
-      throw new Error 
+      console.log("couldnt fetch data")
     }
   } catch (error) {
     console.log(error)
